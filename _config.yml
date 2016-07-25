@@ -23,7 +23,7 @@ description: This workshop will introduce participants to a variety of ways of t
 
 # List of links in the navigation bar
 navbar-links:
-  About the Workshop: "aboutme"
+  About: "about"
   Mapping Resources:
     - Carto[DB]: "http://www.carto.com"
   Resources:
