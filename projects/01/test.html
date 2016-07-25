@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>The Literary Geographies of Christine de Pizan</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+	<style>
+ 	/* CSS Goes Here*/
+ 	body {
+  	margin:0;
+ 	}
+ 	#map {
+  	background:gray;
+  	position:absolute;
+  	height:100%;
+  	width:100%;
+ 	}
+  	#info {
+  	position: absolute;
+  	top: 10px;
+  	left: 50px;
+  	background: steelblue;
+  	border-radius: 10px;
+  	display: block;
+  	padding: 10px;
+  	color: white;
+  	font-family:sans-serif;
+ 	}
+	</style>
+  </head>
+  <body>  
+	<div id='map'>
+	</div>
+	<div id='info'>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The Literary Geographies of Christine de Pizan</span> by </br>
+<a xmlns:cc="http://creativecommons.org/ns#" href="http://www.djwrisley.com/" property="cc:attributionName" rel="cc:attributionURL">David Joseph Wrisley</a> carries a</br>
+<a rel="license" href="http://creativecommons.org/about/cc0">Creative Commons Attribution CC0 License</a>. </br>
+<a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="DJWrisley">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<a rel="license" href="http://creativecommons.org/licenses/by//"><img alt="Creative Commons License" style="border-width:0" src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" /></a></br>
+<a href="http://dx.doi.org/10.5281/zenodo.35350"><img src="https://zenodo.org/badge/doi/10.5281/zenodo.35350.svg" alt="10.5281/zenodo.35350"></a>
+
+	</div>
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+	<script>
+     var map = new L.Map('map', {
+      	center: [41.405453, 20.114377],
+      	zoom: 4
+    	});
+
+  	var basemap = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',{
+      	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    	}).addTo(map);
+   	   	var myLayer = cartodb.createLayer(map,'https://djw.cartodb.com/api/v2/viz/5cf4b2fe-03ef-11e5-bf01-0e853d047bba/viz.json').addTo(map);
+  	//Javascript goes here
+	</script>
+    
+  </body>
+
+</html>
