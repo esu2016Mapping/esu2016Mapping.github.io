@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the Workshop
-subtitle: Hover to Discover
+title: Hover to Discover
+subtitle: About the Workshop
 ---
 
 <iframe width="100%" height="520" frameborder="0" src="https://maximromanov.carto.com/viz/359b0128-4db2-11e6-aa04-0ecd1babdde5/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
