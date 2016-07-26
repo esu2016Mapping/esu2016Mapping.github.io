@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: ESU in DH “Culture & Technology”, U Leipzig 2016
+title: From Text to Map (ESU in DH, U Leipzig 2016)
 
 # Short description of your site
 description: This workshop will introduce participants to a variety of ways of thinking about humanities data in digital mapping environments. We will create our own spatial data and reuse that of others. Beyond making maps, we will also reflect more generally on how location-based research can be incorporated into research projects.
@@ -55,8 +55,8 @@ footer-links-active:
   email: true
   twitter: true
   github: true
-  linkedin: false
-  stackoverflow: false
+  linkedin: true
+  stackoverflow: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
