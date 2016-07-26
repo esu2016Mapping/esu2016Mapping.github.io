@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "New Note"
+date:   2016-07-26
+author: "Ewa Drygalska"
+categories: research notes
+---
+
+# This was my first interactive map made during the workshop _al-Muqadassi map of Islamic world_
+
+[click here](http://bl.ocks.org/anonymous/raw/47d75c56fa59a8fa41cfcf0245175fb3/)
+
+
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
