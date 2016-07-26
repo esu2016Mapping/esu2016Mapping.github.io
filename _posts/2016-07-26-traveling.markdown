@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Franziska Blunck"
-date:   2016-07-25
+title:  "Traveling through Germany"
+date:   2016-07-26
 categories: research notes
 ---
-This is a page for Franziska Blunck's notes. Below is David's map iframed into the blog page.
+This is a page for Franziska Blunck's notes..... Below is David's map iframed into the blog page.
 
 <iframe width="100%" height="520" frameborder="0" src="https://maximromanov.carto.com/viz/359b0128-4db2-11e6-aa04-0ecd1babdde5/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
