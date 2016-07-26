@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Musings on Mapping"
+date:   2016-07-26
+author: "David Wrisley"
+categories: ESU, workshop, mapping 
+---
+
+Hi. I am co-leading the "From Text to Map" workshop at the European Summer University in Digital Humanities in Leipzig, Germany.  
+
+For the second week of our workshop we are creating a [https://esu2016mapping.github.io/](website) to showcase some of the different experiments with mapping and visualizing geographic data and phenomena.  
+
+Below you can find an example of our first extraction of data from a 10th century Arabic work:
+
+<iframe width="100%" height="520" frameborder="0" src="https://djw.carto.com/viz/6cfcfcd2-4f26-11e6-9a72-0ecd1babdde5/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "New Note Ewa"
+date:   2016-07-26
+author: "Ewa Drygalska"
+categories: research notes
+---
+
+# This was my first interactive map made during the workshop _al-Muqadassi map of Islamic world_
+
+[click here](http://bl.ocks.org/anonymous/raw/47d75c56fa59a8fa41cfcf0245175fb3/)
+
+
+
