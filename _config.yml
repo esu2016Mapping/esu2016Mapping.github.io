@@ -26,6 +26,7 @@ navbar-links:
   About: "about"
   Mapping Resources:
     - Carto[DB]: "http://www.carto.com"
+    - Mapwarper: "http://www.mapwarper.net"
   Resources:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - R Interactive Tutorial: "http://tryr.codeschool.com/"
