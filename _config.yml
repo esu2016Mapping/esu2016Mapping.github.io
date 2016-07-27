@@ -24,15 +24,21 @@ description: This workshop will introduce participants to a variety of ways of t
 # List of links in the navigation bar
 navbar-links:
   About: "about"
+  Data:
+    - NHGIS: "https://www.nhgis.org/"
   Texts:
     - AntCont: "http://www.laurenceanthony.net/software/antconc/"
   Maps:
     - Carto[DB]: "http://www.carto.com"
     - Mapwarper: "http://www.mapwarper.net"
+  Programming:
+    - R Interactive: "http://tryr.codeschool.com/"
+    - R in R (Swirl): "http://swirlstats.com/"
+    - Python: "http://www.learnpython.org/" 
   Other Useful Things:
     - Markdown: "http://www.markdowntutorial.com/"
-    - R: "http://tryr.codeschool.com/"
     - RegEx: "http://regexone.com/"
+    - GitHub: "https://try.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
