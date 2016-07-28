@@ -28,8 +28,10 @@ navbar-links:
     - NHGIS: "https://www.nhgis.org/"
     - Mineral Resources (USGS): "http://mrdata.usgs.gov/"
     - DARMC: "http://darmc.harvard.edu/data-availability"
+    - Free GIS Data: "http://freegisdata.rtwilson.com/"
   Texts:
     - AntCont: "http://www.laurenceanthony.net/software/antconc/"
+    - Word Frequency Gen: "http://www.writewords.org.uk/word_count.asp"
   Maps:
     - Carto[DB]: "http://www.carto.com"
     - Mapwarper: "http://www.mapwarper.net"
@@ -37,6 +39,7 @@ navbar-links:
     - R : "https://www.r-project.org/"
     - RStudio : "https://www.rstudio.com/"
     - R Shiny : "http://shiny.rstudio.com/"
+    - GeoTemCo: "http://www.informatik.uni-leipzig.de:8080/geotemco//tutorial.html" 
   Tutorials:
     - Markdown: "http://www.markdowntutorial.com/"
     - RegEx: "http://regexone.com/"
