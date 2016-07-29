@@ -1,0 +1,7 @@
+RE
+
+FIND
+\t".*?Deposit type</th><td>(.*?)</td>.*Country</th><td>(.*?)</td>.*?\t
+
+REPLACE
+\t\2\t\1\t
