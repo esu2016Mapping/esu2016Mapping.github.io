@@ -46,7 +46,7 @@ col2="blue"
 header="Muqaddasi Data"
 
 # creating plot
-ggplot()+
+test = ggplot()+
   coord_map(xlim=xlim,ylim=ylim)+
   geom_polygon(data=worldmap,aes(X,Y,group=PID),size=0.1,colour=land,fill=water,alpha=1)+
   # Header
@@ -58,8 +58,10 @@ ggplot()+
   mineralsLayer+
   muqaddasi1+
   muqaddasi2+
-  #labs(y="",x="")+
+  labs(y="",x="")+
   theme_grey()
 
+test
+
 fileName = "/Users/romanov/Documents/GitProjects/esu2016mapping.github.io/projects/minerals/Muqaddasi_data.png"
-ggsave(file=fileName,dpi=600,width=7,height=6)
+ggsave(file=fileName,plot=test,dpi=600,width=7,height=6)
