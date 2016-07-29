@@ -45,6 +45,7 @@ col2="blue"
 
 header="Muqaddasi Data"
 
+# creating plot
 ggplot()+
   coord_map(xlim=xlim,ylim=ylim)+
   geom_polygon(data=worldmap,aes(X,Y,group=PID),size=0.1,colour=land,fill=water,alpha=1)+
